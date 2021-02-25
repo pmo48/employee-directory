@@ -36,7 +36,9 @@ function Main() {
         <table>
             <tr>
                 <th>Image</th>
-                <th>Name</th>
+                <th onClick={(name) => {
+                    setOrder(name);
+                  }}>Name</th>
                 <th>Phone</th>
                 <th>Email</th>
                 <th>DOB</th>
