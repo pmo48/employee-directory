@@ -4,6 +4,6 @@ form.search {
 }
 
 form.search button[type="submit"] {
-  float: right;
+  float: center;
   margin-top: 10px;
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./style.css";
 import API from "../../utils/API";
 
 function Main() {
@@ -33,7 +34,7 @@ function Main() {
     }
 
     return (
-        <table>
+        <table className="table">
             <tr>
                 <th>Image</th>
                 <th onClick={(name) => {
